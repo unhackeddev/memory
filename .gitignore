@@ -351,3 +351,6 @@ MigrationBackup/
 
 # Ignore Dump Files
 core_*
+
+# Remove DS_Store
+.DS_Store
