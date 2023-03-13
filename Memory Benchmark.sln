@@ -5,6 +5,14 @@ VisualStudioVersion = 25.0.1704.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectStackAllocation", "ObjectStackAllocation\ObjectStackAllocation.csproj", "{35451654-B5A7-4005-A72B-F1C28D06E7E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryLeak", "MemoryLeak\MemoryLeak.csproj", "{650E5FE1-6B3E-4A26-8F49-A94B13ED6273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientStream", "HttpClientStream\HttpClientStream.csproj", "{5065C5CD-7540-406B-9D3A-9FD045B647C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTesteHttp", "ApiTesteHttp\ApiTesteHttp.csproj", "{74A97D3E-CB67-44AF-8DC2-43A2ABAA3BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullReferenceException", "NullReferenceException\NullReferenceException.csproj", "{D074E322-9E49-448F-9F31-C2A37FDE3276}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{35451654-B5A7-4005-A72B-F1C28D06E7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35451654-B5A7-4005-A72B-F1C28D06E7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35451654-B5A7-4005-A72B-F1C28D06E7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650E5FE1-6B3E-4A26-8F49-A94B13ED6273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650E5FE1-6B3E-4A26-8F49-A94B13ED6273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650E5FE1-6B3E-4A26-8F49-A94B13ED6273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650E5FE1-6B3E-4A26-8F49-A94B13ED6273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5065C5CD-7540-406B-9D3A-9FD045B647C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5065C5CD-7540-406B-9D3A-9FD045B647C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5065C5CD-7540-406B-9D3A-9FD045B647C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5065C5CD-7540-406B-9D3A-9FD045B647C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A97D3E-CB67-44AF-8DC2-43A2ABAA3BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A97D3E-CB67-44AF-8DC2-43A2ABAA3BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A97D3E-CB67-44AF-8DC2-43A2ABAA3BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A97D3E-CB67-44AF-8DC2-43A2ABAA3BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D074E322-9E49-448F-9F31-C2A37FDE3276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D074E322-9E49-448F-9F31-C2A37FDE3276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D074E322-9E49-448F-9F31-C2A37FDE3276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D074E322-9E49-448F-9F31-C2A37FDE3276}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
